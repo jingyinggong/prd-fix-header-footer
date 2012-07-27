@@ -1,0 +1,238 @@
+.c0 {
+  color: #000;
+}
+.c3 {
+  color: #333;
+}
+.c4 {
+  color: #444;
+}
+.c6 {
+  color: #666;
+}
+.c9 {
+  color: #999;
+}
+.cc {
+  color: #ccc;
+}
+.cf {
+  color: #fff;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.ffa {
+  font-family: Arial;
+}
+.ffs {
+  font-family: '宋体';
+}
+.ffyh {
+  font-family: '微软雅黑';
+}
+.n {
+  font-weight: normal;
+  font-style: normal;
+}
+.b {
+  font-weight: bold;
+}
+.i {
+  font-style: italic;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.tj {
+  text-align: justify;
+}
+.vt {
+  vertical-align: top;
+}
+.vm {
+  vertical-align: middle;
+}
+.vb {
+  vertical-align: bottom;
+}
+.vtb {
+  vertical-align: text-bottom;
+}
+.tdu {
+  text-decoration: underline;
+}
+.tdn {
+  text-decoration: none;
+}
+.wn {
+  white-space: nowrap;
+}
+.wbk {
+  word-wrap: break-word;
+}
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.di {
+  display: inline;
+}
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.oh {
+  overflow: hidden;
+}
+.vh {
+  visibility: hidden;
+}
+.vv {
+  visibility: visible;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.poi {
+  cursor: pointer;
+}
+.def {
+  cursor: default;
+}
+.zo {
+  *zoom: 1;
+}
+.ma {
+  margin-left: auto;
+  margin-right: auto;
+}
+.fix {
+  *zoom: 1;
+}
+.fix:after {
+  display: block;
+  content: "clear";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.c8 {
+  color: #888;
+}
+body {
+  padding-top: 60px;
+  font-size: 12px;
+  font-family: '宋体';
+}
+.banner {
+  margin-top: 20px;
+  height: 400px;
+  background: url(images/banner.png) center 0 no-repeat #ffffff;
+}
+.feature h2 {
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  font-family: '微软雅黑';
+  font-size: 22px;
+  margin-top: 50px;
+}
+.feature .intro {
+  text-align: center;
+  font-family: '宋体';
+  color: #888;
+  line-height: 20px;
+  margin-top: 6px;
+  margin-bottom: 50px;
+}
+.feature h3 {
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+  font-family: '微软雅黑';
+  font-size: 18px;
+}
+.feature p {
+  color: #888;
+}
+.feature i {
+  float: left;
+  width: 68px;
+  height: 68px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  background-image: url(images/feature.png);
+}
+.feature .feature_icon1 {
+  background-position: 0 0;
+}
+.feature .feature_icon2 {
+  background-position: 0 -100px;
+}
+.feature .feature_icon3 {
+  background-position: 0 -200px;
+}
+.feature .feature_icon4 {
+  background-position: 0 -300px;
+}
+.contact hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact h3 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  font-family: '微软雅黑';
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer p {
+  color: #333;
+}
+.footer p a {
+  color: #333;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer p a:hover {
+  text-decoration: underline;
+}
+.footer span {
+  margin-right: 20px;
+}

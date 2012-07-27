@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link href="static/themes/default/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="static/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.headfoot-1.0.js"></script>
+</head>
+
+<body>
+    <div id="header"></div> 
+    <br />
+    <div id="header2"></div> 
+    <br />
+    <div id="header3"></div> 
+    <br />
+    <br />
+    <br />
+    <div id="footer"></div>
+    <div id="footelr"></div>
+    <script type="text/javascript">
+    $(function() {
+        $("#header").addHeader();
+        $("#header2").addHeader({current: 1, active: 1});
+        $("#header3").addHeader({current: 1, active: 2});
+        $("#header3").addHeader({current: 2, active: 2});
+        $("#footer").addFooter();
+        $("#footelr").addFooter([
+            {text: 'http://www.go.com/', href: 'http://www.go.com'}, 
+            {text: 'http://www.gx.com/', href: 'http://www.go.com'}, 
+        ]);
+    });
+    </script>
+</body>
+
+</html>

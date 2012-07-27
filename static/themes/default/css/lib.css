@@ -1,0 +1,145 @@
+.c0 {
+  color: #000;
+}
+.c3 {
+  color: #333;
+}
+.c4 {
+  color: #444;
+}
+.c6 {
+  color: #666;
+}
+.c9 {
+  color: #999;
+}
+.cc {
+  color: #ccc;
+}
+.cf {
+  color: #fff;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.ffa {
+  font-family: Arial;
+}
+.ffs {
+  font-family: '宋体';
+}
+.ffyh {
+  font-family: '微软雅黑';
+}
+.n {
+  font-weight: normal;
+  font-style: normal;
+}
+.b {
+  font-weight: bold;
+}
+.i {
+  font-style: italic;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.tj {
+  text-align: justify;
+}
+.vt {
+  vertical-align: top;
+}
+.vm {
+  vertical-align: middle;
+}
+.vb {
+  vertical-align: bottom;
+}
+.vtb {
+  vertical-align: text-bottom;
+}
+.tdu {
+  text-decoration: underline;
+}
+.tdn, .tdn:hover {
+  text-decoration: none;
+}
+.wn {
+  white-space: nowrap;
+}
+.wbk {
+  word-wrap: break-word;
+}
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.di {
+  display: inline;
+}
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+.cb {
+  clear: both;
+}
+.oh {
+  overflow: hidden;
+}
+.vh {
+  visibility: hidden;
+}
+.vv {
+  visibility: visible;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.poi {
+  cursor: pointer;
+}
+.def {
+  cursor: default;
+}
+.zo {
+  *zoom: 1;
+}
+.ma {
+  margin-left: auto;
+  margin-right: auto;
+}
+.fix {
+  *zoom: 1;
+}
+.fix:after {
+  display: block;
+  content: "clear";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
